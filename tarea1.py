@@ -47,7 +47,7 @@ elif opcion == '3':
     result = multiplica(a,b)
     print (result)
 elif opcion == '4':
-    x=float (input ("ingrese numero 1: "))
+    x=float (input ("ingrese numero 1.: "))
     y=float(input("Ingrese numero 2: ")) 
     result = divide(x,y)
     print (result)

@@ -1,4 +1,12 @@
-
+def divide(x, y ):
+        try :
+            z= x/y
+        except ZeroDivisionError:
+            print ("Lo siento està dividiendo entre cer")
+        except TypeError:
+            print ("Lo siento, solo son permitidos valores numericos")
+        else:
+            return z
 
 
 print("hola  mundo soy clara")
@@ -24,7 +32,11 @@ elif opcion == '2' :
 elif opcion == '3':
     pass
 elif opcion == '4':
-    pass
+    x=float (input ("ingrese numero 1: "))
+    y=float(input("Ingrese numero 2: ")) 
+    result = divide(x,y)
+    print (result)
+    
     
 else :
     print ("Debes de digitar un numero entre el 1 y 4")

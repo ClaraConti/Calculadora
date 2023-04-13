@@ -9,6 +9,16 @@ def divide(x, y ):
             return z
         finally: 
              print("Fin")
+def multiplica(a, b ):
+        try :
+            m= a*b
+        
+        except TypeError:
+            print ("Lo siento, solo son permitidos valores numericos")
+        else:
+            return m
+        finally: 
+             print("Fin")
 
 
 print("hola  mundo soy clara")
@@ -32,7 +42,10 @@ if opcion == '1' :
 elif opcion == '2' :
     pass
 elif opcion == '3':
-    pass
+    a=float (input ("ingrese numero 1: "))
+    b=float(input("Ingrese numero 2: ")) 
+    result = multiplica(a,b)
+    print (result)
 elif opcion == '4':
     x=float (input ("ingrese numero 1.: "))
     y=float(input("Ingrese numero 2: ")) 

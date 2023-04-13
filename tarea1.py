@@ -1,3 +1,15 @@
+
+def multiplica(a, b ):
+        try :
+            m= a*b
+        
+        except TypeError:
+            print ("Lo siento, solo son permitidos valores numericos")
+        else:
+            return m
+        finally: 
+             print("Fin")
+
 def divide(x, y ):
         try :
             z= x/y
@@ -7,16 +19,6 @@ def divide(x, y ):
             print ("Lo siento, solo son permitidos valores numericos")
         else:
             return z
-        finally: 
-             print("Fin")
-def multiplica(a, b ):
-        try :
-            m= a*b
-        
-        except TypeError:
-            print ("Lo siento, solo son permitidos valores numericos")
-        else:
-            return m
         finally: 
              print("Fin")
 

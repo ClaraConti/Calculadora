@@ -1,4 +1,13 @@
-
+def suma(t, c):
+        try :
+            m= t+c
+        
+        except TypeError:
+            print ("Lo siento, solo son permitidos valores numericos")
+        else:
+            return m
+        finally: 
+             print("Fin")
 
 
 print("hola  mundo soy clara")
@@ -18,7 +27,10 @@ print (menu)
 
 opcion= input ("ingrese un numero: ")
 if opcion == '1' :
-    pass
+    t=float (input ("ingrese numero 1: "))
+    c=float(input("Ingrese numero 2: ")) 
+    result = suma(t,c)
+    print (result)
 elif opcion == '2' :
     pass
 elif opcion == '3':

@@ -1,7 +1,7 @@
 
 
 
-print("hola mundo")
+print("hola  mundo soy clara")
 print("Hola soy")
 
 menu=""" Bienvenido a nuestra calculadora, 

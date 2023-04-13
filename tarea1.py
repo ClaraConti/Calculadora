@@ -12,8 +12,7 @@ def divide(x, y ):
 def multiplica(a, b ):
         try :
             m= a*b
-        except ZeroDivisionError:
-            print ("Lo siento està dividiendo entre cer")
+        
         except TypeError:
             print ("Lo siento, solo son permitidos valores numericos")
         else:
